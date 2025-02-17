@@ -1,7 +1,7 @@
-name :hello world
-
+name: hello world
 jobs:
-  hello_world:
+  hello world
+
    run-on: ubuntu-latest
 
    steps:
@@ -10,4 +10,3 @@ jobs:
 
     - name : print hello world
       run: "echo hello-world"
-  
