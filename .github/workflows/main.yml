@@ -1,0 +1,13 @@
+name :hello world
+
+jobs:
+  hello_world:
+   run-on: ubuntu-latest
+
+   steps:
+    - name: print hello  
+      uses: action/checkout@v2
+
+    - name : print hello world
+      run: "echo hello-world"
+  
